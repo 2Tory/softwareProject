@@ -9,11 +9,11 @@
     <!-- 그래프를 출력할 곳 -->
     <div>
         <h2>gender</h2>
-        <img src="../recidivism_by_gender.png" alt="gender">
+        <img src="{{ url_for('static', filename='recidivism_by_gender.png') }}" alt="gender">
     </div>
 <div>
         <h2>race</h2>
-        <img src="../violent_recid_by_race.png" alt="race">
+        <img src="{{ url_for('static', filename='violent_recid_by_race.png') }}" alt="race">
     </div>
 </body>
 </html>
